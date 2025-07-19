@@ -94,5 +94,54 @@ nav ul {
     max-width: 1440px;
     margin: 0 auto;
     margin-top: 100px;
+    margin-bottom: 100px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width: 329px;
+    height: 445px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .2) ;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+    
+}
+.card-container small{
+    width: 196px;
+    height: 61px;
+}
+.popular{
+    display: flex;
+    justify-content: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.all-cards{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.see-more{
+    max-width: 1440px;
+    display: flex;
+    margin: 0 auto;
+   
+}
+.see-more a{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color:#E02C6D;
+    margin-left: 1287px;
+    font-weight: 700;
 
+}
+.see-more a span{
+    margin-right: 5px;
 }
