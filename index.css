@@ -65,13 +65,15 @@ nav ul {
     color: #3A3A3A;
 }
 
-.prebook {
+.preebook {
     color: white;
     background-color: #E02C6D;
     border: none;
     border-radius: 40px;
     width: 9rem;
     height: 2rem;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
 .heading-img {
@@ -87,9 +89,10 @@ nav ul {
     display: flex;
     justify-content: space-around;
 }
-.sites{
+
+.sites {
     max-width: 1440px;
     margin: 0 auto;
     margin-top: 100px;
-    
+
 }
