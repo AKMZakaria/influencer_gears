@@ -49,17 +49,20 @@ nav ul {
 .menubar h3 {
     font-size: 24px;
     font-weight: 700;
+    color: #3A3A3A;
 }
 
 .heading h1 {
     font-size: 52px;
     font-weight: 700;
     margin-bottom: 15px;
+    color: #3A3A3A;
 }
 
 .heading p {
     font-size: 16px;
     font-weight: 600px;
+    color: #3A3A3A;
 }
 
 .prebook {
